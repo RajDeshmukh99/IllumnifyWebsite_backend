@@ -169,7 +169,7 @@ body {
 
 #about_heading {
   color: white;
-  background-color: #02002a;
+  background-color: #070707;
   height: 100%;
   float: left;
   writing-mode: vertical-lr;
@@ -200,7 +200,7 @@ body {
 }
 #grant_heading {
   color: white;
-  background-color: #02002a;
+  background-color: #070707;
   height: 25vh;
   writing-mode: horizontal-lr;
   text-orientation: sideways-right;
@@ -261,7 +261,7 @@ body {
   display: block;
   /* font-family: Ubuntu-Bold; */
   font-size: 30px;
-  color: #02002a;
+  color: #070707;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -472,7 +472,7 @@ section {
 #footer {
   margin-top: -1.25%;
   /* background-color: #333; */
-  background-color: #02002a;
+  background-color: #070707;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
