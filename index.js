@@ -55,8 +55,8 @@ app.post("/postroute", async (req, res, next) => {
     };
     await sgMail.send(msg);
     console.log(req.body);
-    return res.json({ message: req.body });
-    // return res.render("index", { title: "Express" });
+    // return res.json({ message: req.body });
+    return res.redirect("/");
   } catch (error) {
     return console.log(error);
   }
