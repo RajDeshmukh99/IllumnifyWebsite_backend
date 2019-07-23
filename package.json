@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkashSReddy/mailServer.git"
+    "url": "git+https://github.com/RajDeshmukh99/Illumnify_backend.git"
   },
-  "author": "Akash",
+  "author": "Rajvardhan Deshmukh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AkashSReddy/mailServer/issues"
+    "url": "https://github.com/RajDeshmukh99/Illumnify_backend/issues"
   },
-  "homepage": "https://github.com/AkashSReddy/mailServer#readme",
+  "homepage": "https://github.com/RajDeshmukh99/Illumnify_backend#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "body-parser": "^1.19.0",
