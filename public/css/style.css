@@ -1,5 +1,5 @@
 nav {
-  background-color: #02002a !important;
+  background-color: #2e2d2d !important;
 }
 
 .button_container {
@@ -51,7 +51,7 @@ nav {
 
 .overlay {
   position: fixed;
-  background: #02002a;
+  background-color: #2e2d2d;
   top: 0;
   left: 0;
   width: 100%;

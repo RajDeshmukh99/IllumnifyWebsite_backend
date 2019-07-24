@@ -129,7 +129,7 @@ body {
   transition: 3s;
 }
 .color1 {
-  color: #00e0ff;
+  color: white;
   font-weight: bolder;
 }
 /* .footer_row {
@@ -163,7 +163,7 @@ body {
   }
 }
 #hello {
-  color: #000aff;
+  color: #070707;
 }
 /* about changes */
 
