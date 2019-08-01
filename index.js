@@ -45,7 +45,7 @@ app.post("/postroute", async (req, res, next) => {
       req.body.fname +
       " " +
       req.body.lname +
-      " <br /> " +
+      " <br /><br /> " +
       "<b>Message:</b><br />  " +
       req.body.mess;
     let msg = {
@@ -57,7 +57,7 @@ app.post("/postroute", async (req, res, next) => {
     await sgMail.send(msg);
     console.log(req.body);
     // return res.json({ message: req.body });
-    return res.redirect("/");
+    return res.redirect("back");
   } catch (error) {
     return console.log(error);
   }
