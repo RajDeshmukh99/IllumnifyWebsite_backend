@@ -26,8 +26,8 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 //Get request routes
 
-app.listen(process.env.PORT || 3000, function() {
-  console.log("Listening on port 3000");
+app.listen(process.env.PORT || 3001, function() {
+  console.log("Listening on port 3001");
 });
 
 // app.get("/", (req, res) => {
@@ -41,17 +41,18 @@ app.post("/postroute", async (req, res, next) => {
   try {
     let str = "";
     str =
+      "<b>Name:</b>  " +
       req.body.fname +
       " " +
       req.body.lname +
-      "  " +
-      "Message:  " +
+      " <br /> " +
+      "<b>Message:</b><br />  " +
       req.body.mess;
     let msg = {
       to: process.env.TO_MSG,
       from: req.body.email,
       subject: req.body.subject,
-      text: str
+      html: str
     };
     await sgMail.send(msg);
     console.log(req.body);
